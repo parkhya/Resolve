@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+     [[UITextField appearance] setTintColor:[UIColor colorWithRed:83/255.f green:179/255.f blue:213/255.f alpha:1  ]];
     return YES;
 }
 
